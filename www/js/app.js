@@ -6,7 +6,7 @@
 
 (function(){
 'use strict';
-angular.module('starter', ['ionic'])
+angular.module('ds-ionicphaser', ['ionic'])
 
 .run(function($ionicPlatform){
   $ionicPlatform.ready(function(){

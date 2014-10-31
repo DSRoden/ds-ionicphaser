@@ -12,8 +12,6 @@ html
     script(src='cordova.js')
     // your app's js
     script(src='js/app.js')
-  body(ng-app='ds-ionicphaser')
-    ion-pane
-      ion-header-bar.bar-stable
-        h1.title Ionic Blank Starter
-      ion-content
+    script(src='lib/phaser/phaser.js')
+    script(src='js/main.js')
+  body(ng-app='ds-ionicphaser', style='background-color:black;')
